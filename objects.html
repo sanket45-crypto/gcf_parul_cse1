@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let student = {
+name: "Rahul",
+age: 20
+};
+I
+// Add
+student.course = "BCA";
+// Update
+student.age = 21;
+// Access
+console.log(student.name);
+// Delete
+delete student.course;
+// Methods
+console.log(Object.keys(student));
+console.log(Object.values(student));
+// Loop
+for (let key in student) {
+console.log(key+":"+student[key]);
+document.write(key + ":" + student[key] + "<br>");
+}
+</script>
+</body>
+</html>
